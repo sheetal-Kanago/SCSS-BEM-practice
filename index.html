@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCSS and BEM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- benefits of scss nd uses-->
+  <!-- 
+    BEM and uses
+    Block, Element, Modifier
+    In this HTML, 
+    Block: div
+    Element: img, h2, p
+    Modifier: Light/dark theming
+  -->
+  <!--
+    Naming conventions:
+    Block: Something meaningful to the block. Eg: Card
+    Element: blockClassname__element
+    Modifier: blockClassname--modifier (goes on the block)
+  -->
+
+  <button class="button button--normal">Normal button</button>
+  <button class="button button--success">Success button</button>
+  <button class="button button--danger">Danger button</button>
+  
+<div class="card card--light">
+  <img class="card__image" src="images/CherryBlossom.jpg" alt="">
+  <h2 class="card__title">I am a light themed card</h2>
+  <p class="card__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque, omnis nobis ad similique, placeat perferendis accusamus labore modi quidem optio nostrum aliquam beatae totam odit saepe praesentium blanditiis! Iusto?</p>
+</div>
+<div class="card card--dark">
+  <img class="card__image" src="images/CherryBlossom.jpg" alt="">
+  <h2 class="card__title">I am a dark themed card</h2>
+  <p class="card__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ad obcaecati commodi labore doloribus! Itaque esse ducimus beatae vitae reprehenderit. Commodi officia minus reprehenderit quaerat distinctio? Voluptates impedit minus illo.</p>
+</div>
+
+
+</body>
+</html>
