@@ -1,0 +1,16 @@
+.button {
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 2px;
+}
+.button--pink {
+  background-color: #f37070;
+}
+.button--light {
+  background-color: #ffe8e8;
+}
+.button--blue {
+  background-color: #9a83f0;
+  color: maroon;
+}

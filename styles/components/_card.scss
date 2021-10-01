@@ -1,0 +1,32 @@
+@use "../base/abstracts" as *;
+
+.card{
+  margin: 50px auto;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 10px 30px -10px grey;
+  border-radius: 5px;
+  &__image{ 
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  }
+  &_title{
+    font-size: xx-large;
+  }
+  &_body{
+    font-weight: bold;
+    
+  }
+  &--pink{
+    background-color: $pink-color;
+    color: white;
+  }
+  &--light{
+    background-color: $light-color;
+  }
+  &--blue{
+    background-color: $blue-color;
+  }
+}

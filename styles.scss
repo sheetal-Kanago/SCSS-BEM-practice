@@ -1,44 +1,14 @@
 
-.card{
-  margin: 50px auto;
-  text-align: center;
-  width: 400px;
-  height: 400px;
-  box-shadow: 0px 10px 30px -10px grey;
-  border-radius: 5px;
-  &__image{ /*.card__image*/
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-  }
-  &_title{
-    font-size: xx-large;
-  }
-  &_body{
-    font-weight: bold;
-    
-  }
-  &--dark{
-    background-color:darkslategrey;
-    color: white;
-  }
-  &--light{
-    background-color: antiquewhite;
-  }
-}
 
-.button{
-  font-size: medium;
-  font-weight: bold;
-  border-radius: 5px;
-  &--normal{
-    color:black;
-  }
-  &--success{
-    background-color: green;
-    color: white;
-  }
-  &--danger{
-    color: maroon;
-  }
-}
+ @use "./styles/components/card";
+ @use "./styles/components/button";
+
+ header{
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
